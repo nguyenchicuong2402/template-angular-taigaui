@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/template-angular-taigaui'),
+      dir: require('path').join(__dirname, './coverage/{{PROJECT_NAME}}'),
       subdir: '.',
       reporters: [
         { type: 'html' },

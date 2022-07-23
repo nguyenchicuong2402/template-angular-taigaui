@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         DOCKER_HUB = 'nguyenchicuong2402'
-        IMAGE_NAME = 'template-angular-taigaui'
+        IMAGE_NAME = '{{PROJECT_NAME}}'
     }
 
     stages {

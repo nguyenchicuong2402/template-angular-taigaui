@@ -1,5 +1,5 @@
 [build]
-  publish = "./dist/template-angular-taigaui"
+  publish = "./dist/{{PROJECT_NAME}}"
   command = "npm run build"
 
 [[redirects]]

@@ -2,7 +2,7 @@ FROM nginx:alpine
 
 WORKDIR /usr/app
 
-COPY ./dist/template-angular-taigaui/ .
+COPY ./dist/{{PROJECT_NAME}}/ .
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
