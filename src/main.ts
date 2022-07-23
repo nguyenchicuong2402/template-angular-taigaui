@@ -9,7 +9,7 @@ if (environment.production) {
     enableProdMode();
 
     Sentry.init({
-        dsn: '',
+        dsn: '{{SENTRY_DSN}}',
         integrations: [
             // new BrowserTracing({
             //   tracingOrigins: ["localhost", "https://yourserver.io/api"],
